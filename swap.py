@@ -1,5 +1,5 @@
-s=input()
-t=list(s)
-t[::2],t[1::2]=t[1::2],t[::2]
-''.join(t)
-print(*t,sep="")
+x=input()
+y=list(x)
+y[::2],y[1::2]=y[1::2],y[::2]
+''.join(y)
+print(*y,sep="")
